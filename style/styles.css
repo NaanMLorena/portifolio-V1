@@ -507,6 +507,9 @@ box-shadow: 10px #333192;
 -webkit-box-shadow: 0px 0px 100px #333192;
 }
 
+main {
+position: relative;
+}
 
 /* NAVBAR */
 
@@ -788,6 +791,10 @@ gap: 10%;
     position: absolute;
     box-shadow: 10px #333192;
     -webkit-box-shadow: 0px 0px 100px #333192;
+}
+
+main {
+position: relative;
 }
 
 

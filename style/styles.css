@@ -533,6 +533,7 @@ flex-direction: row;
 justify-content: center;
 text-align: center;
 padding-top: 5%;
+padding-right: 0;
 }
 
 section.ever.prin-1 h1 {
@@ -556,6 +557,7 @@ section.ever.prin-2 h1 {
 display: flex;
 justify-content: center;
 align-items: center;
+padding: 0;
 }
 
 .about-content {
@@ -621,6 +623,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 10%;
+padding:0;
 }
 
 /* slider */
@@ -637,6 +640,7 @@ height: 100%;
 display: flex;
 justify-content: center;
 padding-bottom: 2%;
+padding-left: 0;
 }
 
 .slides input {
@@ -668,6 +672,7 @@ position: relative;
 .slide-txt {
 padding-top: 5%;
 word-wrap: break-word;
+padding-right: 0;
 }
 
 .slide-txt h2 {
@@ -771,7 +776,7 @@ gap: 10%;
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 
 
 /* BACKGROUND */
@@ -838,6 +843,7 @@ section.ever.prin-1 {
     justify-content: center;
     text-align: center;
     padding-top: 5%;
+    padding-right: 0;
 }
 
 section.ever.prin-1 h1 {
@@ -944,6 +950,7 @@ section.ever.prin-3 h1 {
     display: flex;
     justify-content: center;
     padding-bottom: 2%;
+    padding-left: 0;
 }
 
 .slides input {
@@ -975,6 +982,7 @@ section.ever.prin-3 h1 {
 .slide-txt {
     padding-top: 5%;
     word-wrap: break-word;
+    padding-right: 0;
 }
 
 .slide-txt h2 {
@@ -1122,7 +1130,7 @@ overflow: hidden;
 
 .circle-2 {
 background: #333192;
-width: 700px;
+width: 1000px;
 height: 10%;
 border-radius: 60%;
 position: absolute;

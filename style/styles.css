@@ -996,8 +996,8 @@ text-decoration: none;
 .translation-content {
     display: none;
     position: absolute;
-    margin-left: 120px;
-    width: 120px;
+    margin-left: 150px;
+    width: 150px;
     z-index: 1;
 }
 

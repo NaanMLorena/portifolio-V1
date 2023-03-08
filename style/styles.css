@@ -966,6 +966,97 @@ text-decoration: none;
 }
 
 
+/* TRADUÇÃO */
+
+.translate {
+    position: fixed;
+    margin-top: 50%;
+    z-index: 10;
+}
+
+.drop-translate {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-translate .translate-back{
+    margin: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.translation-content {
+    display: none;
+    position: absolute;
+    margin-left: 120px;
+    width: 120px;
+    z-index: 1;
+}
+
+.translation-content a {
+    float: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.5rem;
+}
+
+.translation-content a:hover {
+    background-color: #8E0B69;
+    -webkit-box-shadow: 0px 0px 25px #8E0B69;
+}
+
+.drop-translate:hover .translation-content {
+    display: block;
+}
+
+.translate-back {
+    background: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: transparent;
+    transition: 0.4s;
+}
+
+.translate-back:hover {
+    background-color: #8E0B69;
+    -webkit-box-shadow: 0px 0px 25px #8E0B69;
+    border: 2px solid #8E0B69;
+}
+
+.translate-btn {
+    width: 30px;
+    padding: 10px;
+}
+
+.translate .translate-btn{
+    display: block;
+}
+
+.translation-content {
+    text-align: left;
+}
+
+.drop-translate .translate-back{
+    display: block;
+}
+
+.align-translation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* GERAL */
 
 section.ever h1 {
